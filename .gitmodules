@@ -1,0 +1,3 @@
+[submodule "train_data"]
+	path = train_data
+	url = https://github.com/ReceiptManager/receipt-dataset
