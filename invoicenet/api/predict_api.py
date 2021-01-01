@@ -1,5 +1,7 @@
-import json
 import os
+import sys
+
+sys.path.insert(1, 'receipt-parser-neuronal')
 
 from invoicenet import FIELDS
 from invoicenet.acp.acp import AttendCopyParse
