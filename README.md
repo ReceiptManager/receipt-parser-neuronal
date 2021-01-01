@@ -74,24 +74,3 @@ Run InvoiceNet using the following command:
 ```bash
 python predict.py --field company --field total --field date --field address  --data_dir predict_data/
 ```
-
-
-### Using the GUI
-InvoiceNet provides you with a GUI to train a model on your data and extract information from invoice documents using this trained model
-
-
-Run the following command to run the trainer GUI:
-
-```bash
-python trainer.py
-```
-
-Run the following command to run the extractor GUI:
-
-```bash
-python extractor.py
-```
-
-You need to prepare the data for training first. 
-You can do so by setting the **Data Folder** field to the directory containing your training data and the clicking the **Prepare Data** button.
-Once the data is prepared, you can start training by clicking the **Start** button.

@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 .idea
-processed_data
-predictions
-train_data
+processed_data/*
+predictions/*
+train_data/*
+models/*
