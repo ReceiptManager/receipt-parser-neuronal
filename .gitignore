@@ -128,8 +128,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# neuronal network
 .idea
-processed_data/*
-predictions/*
-train_data/*
-models/*
+processed_data
+predictions
+train_data
+models
