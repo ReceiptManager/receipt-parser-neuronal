@@ -31,4 +31,3 @@ FIELDS = dict()
 FIELDS["company"] = FIELD_TYPES["general"]
 FIELDS["date"] = FIELD_TYPES["date"]
 FIELDS["total"] = FIELD_TYPES["amount"]
-FIELDS["address"] = FIELD_TYPES["general"]
