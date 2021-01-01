@@ -36,6 +36,11 @@ pip install .
 ```
 
 ## Usage
+##### Important
+The data preparation and training **is only required** if you don't use precompiled models. You
+can download them at the release page. After, extract the models using `zip` and put the models folder in the 
+root directory.
+
 ### Data Preparation
 The training data must be arranged in a single directory. The invoice documents are expected be PDF files and each invoice is expected to have a corresponding JSON label file with the same name.
 
