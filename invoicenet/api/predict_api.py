@@ -3,7 +3,6 @@ import sys
 
 sys.path.insert(1, 'receipt-parser-neuronal')
 
-from invoicenet import FIELDS
 from invoicenet.acp.acp import AttendCopyParse
 
 
@@ -14,7 +13,7 @@ def predict(filepath):
         return
     paths.append(filepath)
 
-    for field in FIELDS.keys():
+    for field in [ "total", "company", "date" ]:
         model = AttendCopyParse(field=field, restore=True)
         model_predictions = model.predict(paths=paths)
         for prediction, filename in zip(model_predictions, paths):
